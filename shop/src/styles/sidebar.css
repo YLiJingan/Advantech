@@ -1,0 +1,73 @@
+@import '~antd/dist/antd.css';
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px;
+}
+.ant-layout-header {
+    background: #404040;
+    padding: 0 50px;
+    height: 34px;
+    line-height: 34px;
+}
+.sideTitleColor{
+    font-family: 'Microsoft YaHei';
+    font-size:22px;
+    color: #ededed;
+    padding:15px 0px;
+}
+.sideBgColor{
+    background-color:#2E3441;
+    color:#f0f0f0;
+}
+
+.sideBgColor .ant-menu-item-selected{
+    font-size:14px;
+    color:#ffffff;
+}
+.sideColor{
+    color: #f0f0f0;
+    font-family:'Microsoft YaHei';
+    font-size:14px;
+}
+
+.sideSecondTitle{
+    padding-left:24px;
+    font-size:14px;
+    color:#8f98aa;
+    opacity:0.6;
+    filter:Alpha(opacity=60);
+}
+
+.sideBgColor .iconfont{
+    margin-right:6px;
+    font-size:18px;
+}
+
+.sideCenter{
+    text-align:center;
+}
+.ant-layout-sider-trigger{
+    background-color:#2E3441;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+     background-color: #20242D;
+     color:#ffffff;
+     border-left: 5px solid rgb(242, 114, 65);
+}
+.whiteIcon .anticon:before{
+    color:white;
+    font-size:14px;
+}
+
+.iconfont{
+    color:white;
+}
+
+a .anticon:before {
+     color: white;
+}
+
+

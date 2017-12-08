@@ -1,0 +1,129 @@
+@import '~antd/dist/antd.css';
+
+.App {
+    width: 35%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*.App-logo {*/
+    /*animation: App-logo-spin infinite 20s linear;*/
+    /*height: 80px;*/
+/*}*/
+
+
+.Carousel{
+    width: 100%;
+}
+.App-header {
+    /*background: url("./../images/header.png") no-repeat;*/
+    width: 100%;
+    padding: 170px 0;
+    /*color: white;*/
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*background-repeat: space;*/
+    /*background-size: 100% auto;*/
+    background-size: cover;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.centerInfo {
+    margin: 60px auto;
+    width: 100%;
+}
+
+.centerInfo div {
+    margin: 15px 0;
+    width: 100%;
+}
+
+.centerInfo input[type="button"] {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 80px;
+    border-radius: 20px;
+    background-color: orangered;
+}
+
+.checkInfo input[type="button"] {
+    width: 50%;
+    background-color:yellowgreen;
+    height: 100px;
+}
+
+.desIcon {
+    font-size: 40px;
+    margin-right: 10px;
+    float: left;
+}
+
+.trip p {
+    font-size: 16px;
+}
+
+.footer{
+    text-align: center;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*排队取号*/
+.my-app{
+    width: 27%;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: lightgrey;*/
+}
+
+ .queueInfo{
+     margin: 10px 0;
+     padding: 15px 0;
+     text-align: center;
+     background-color: white;
+}
+.queueInfo span{
+    margin-top: 20px;
+}
+.queueInfo .table {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.queueInfo .waitCount{
+    color: orangered;
+    font-size: 35px;
+}
+
+.footer{
+    margin: 0 auto;
+}
+.keyborard{
+    margin-top: 50px;
+    /*margin: 0 auto;*/
+
+}
+.keyborardContent{width: 300px;}
+.keyborardLeft{width:230px;float: left;}
+.keyborardRight{float: right;background: #fff;width: 60px;margin-right: 8px;margin-top: 4px;}
+.keyborardLeft div{float:left;background-color: #ccc; border-radius: 2px; height:60px; width:64px; margin-left:4px;margin-top: 4px;}
+.keyborardLeft div input[type="button"]{width: 64px;height: 60px;font-size: 20px;}
+.keyborardRight div{width: 80px;height:252px;}
+.keyborardRight div input[type="button"]{width: 70px;height:252px;}
+
+

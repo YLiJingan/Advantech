@@ -1,0 +1,48 @@
+.ant-btn-danger {
+    background-color:#f04134;
+    color:white;
+    border-color: #d9d9d9;
+}
+
+.Menu-table{
+    border: 1px solid #cfd8dc;
+    margin-top:10px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 16px 8px;
+    word-break: break-word;
+    text-align:left;
+}
+
+table .anticon:before {
+    color:black;
+    font-size: 18px;
+}
+.Menu-operation{
+    cursor: pointer;
+    padding:0 10px;
+}
+
+.ant-switch-checked {
+    background-color: #f04134;
+}
+.areaButton{
+    width: 120px;
+    height: 34px;
+    background-color: #4ebd65;
+    border: none;
+    font-size:16px;
+    color:#aab0b6;
+}
+
+.areaTableInfo .ant-btn-primary:hover, .areaTableInfo .ant-btn-primary:focus {
+    color:#aab0b6;
+    background-color: #4ebd65;
+    border: none;
+}
+
+.areaTableInfo{
+    width: 120px;
+    margin-right: 10px;
+}
