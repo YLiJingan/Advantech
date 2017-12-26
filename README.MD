@@ -6,4 +6,6 @@
 
 **queueMobile**  APP项目		
 		
-**shop**	   门店管理前端项目	
+**shop**	   门店管理前端项目			
+
+**cloudManage**  云端管理	
